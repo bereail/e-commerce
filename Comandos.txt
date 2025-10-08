@@ -1,7 +1,0 @@
-python -m venv env
-.\env\Scripts\activate
-pip install django
-(env) PS C:\Users\bsolohaga\Desktop\bere\GIT\e-commerce>
-(env) PS C:\Users\bsolohaga\Desktop\bere\GIT\e-commerce> django-admin startproject backend .
-(env) PS C:\Users\bsolohaga\Desktop\bere\GIT\e-commerce> python manage.py startapp core
-(env) PS C:\Users\bsolohaga\Desktop\bere\GIT\e-commerce> python manage.py startapp shopit
