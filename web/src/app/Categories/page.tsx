@@ -1,11 +1,8 @@
-import React from 'react'
-
-const Categories = () => {
+export default function Categories() {
   return (
-    <div>
-      categories
-    </div>
-  )
+    <section className="px-6 py-8">
+      <h2 className="text-xl font-semibold">Categorías</h2>
+      {/* tu grid */}
+    </section>
+  );
 }
-
-export default Categories
