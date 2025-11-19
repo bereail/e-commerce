@@ -11,7 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+<<<<<<< HEAD
     "Title": {
+=======
+    "title": {
+>>>>>>> 4ccfae1dc2269613acbf6ee640d523a436a371b3
       "type": "string"
     },
     "description": {
@@ -22,9 +26,13 @@
       "multiple": true,
       "allowedTypes": [
         "images",
+<<<<<<< HEAD
         "files",
         "videos",
         "audios"
+=======
+        "files"
+>>>>>>> 4ccfae1dc2269613acbf6ee640d523a436a371b3
       ]
     }
   }

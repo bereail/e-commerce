@@ -1,7 +1,5 @@
-import Image from "next/image";
-import Hero from "./Hero/page";
-import Categories from "./Categories/page";
-
+import Hero from "@/app/Hero/page";
+import Categories from "@/app/Categories/page";
 export default function Home() {
   return (
     <>

@@ -442,14 +442,21 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
     draftAndPublish: false;
   };
   attributes: {
+<<<<<<< HEAD
     blocks: Schema.Attribute.DynamicZone<
       ['shared.media', 'shared.quote', 'shared.rich-text', 'shared.slider']
     >;
+=======
+>>>>>>> 4ccfae1dc2269613acbf6ee640d523a436a371b3
     cover: Schema.Attribute.Media<'images' | 'files', true>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+<<<<<<< HEAD
     description: Schema.Attribute.Blocks;
+=======
+    description: Schema.Attribute.String;
+>>>>>>> 4ccfae1dc2269613acbf6ee640d523a436a371b3
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::about.about'> &
       Schema.Attribute.Private;
@@ -608,10 +615,14 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+<<<<<<< HEAD
     cover: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
     >;
+=======
+    cover: Schema.Attribute.Media<'images' | 'files', true>;
+>>>>>>> 4ccfae1dc2269613acbf6ee640d523a436a371b3
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -620,7 +631,11 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::home.home'> &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+<<<<<<< HEAD
     Title: Schema.Attribute.String;
+=======
+    title: Schema.Attribute.String;
+>>>>>>> 4ccfae1dc2269613acbf6ee640d523a436a371b3
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
